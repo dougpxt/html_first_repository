@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>inserting music and video</h1>
+        <br>
+        <p>for inserting a mp3 audio in a web page, the archive must stay in a folder together with the site folder.
+            in our very case we will have a folder called media.
+        </p>
+        <br>
+
+        <main>
+            <p>there is another way of inserting a video (without having it as a file), by the usage of <b>Youtube</b> links</p>
+        </main>
+        <audio controls id="audio">
+            <source src="audio/metalica_nothing.mp3" type="audio/mpeg">
+        </audio>
+        <section>
+            <video controls>
+                <source src="video/london.mp4" type="video/mp4">
+            </video>
+        </section>
+        <video controls>
+            <source src="video/pink-floyd.mp4" type="video/mp4">
+            <source src="video/pink-floyd.ogg" type="video/ogg">
+            <source src="video/pink-floyd.webm" type="video/webm">
+        <track kind="subtitles" srclang="pt-br" src="video/legenda-ptbr.vtt.txt"
+        label="PortBR" default>
+        </video>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h3>basic tables</h3>
+    <table border="1">
+        <tr>
+            <td>guitar</td>
+            <td>violin</td>
+        </tr>
+        <tr>
+            <td>electric guitar</td>
+            <td>accordeon</td>
+        </tr>
+    </table>
+    <br>
+    <h3>tables with title cells</h3>
+    <table border="1">
+        <tr>
+            <th>string Instruments</th>
+            <th>wind isntrument</th>
+        </tr>
+        <tr>
+            <td>violin</td>
+            <td>flute</td>
+        </tr>
+        <tr>
+            <td>guitar</td>
+            <td>trumpet</td>
+        </tr>
+    </table>
+    <br>
+    <h3>tables with headers on vertical</h3>
+    <table border="1">
+        <tr>
+            <th>books by type</th>
+            <td>history</td>
+            <td>romantism</td>
+        </tr>
+        <tr>
+            <th>quantity</th>
+            <td>2000</td>
+            <td>5000</td>
+        </tr>
+    </table>
+    <br>
+    <h3>tables with sections</h3>
+    <table border="1">
+        <caption>thead, tbody, tfoot tags</caption>
+        <thead>
+            <tr>
+                <th colspan="2">column 1</th>
+                <th>column 2</th>
+                <th>column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">content A</td>
+                <td>content B</td>
+                <td>content C</td>
+            </tr>
+            <tr>
+                <td>content D</td>
+                <td>content E</td>
+                <!-- <td>content F</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>content F</td>
+            </tr>
+            <tr>
+                <td>content G</td>
+                <td>content H</td>
+                <td>content I</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>result 1</td>
+                <td>result 2</td>
+                <td>result 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
